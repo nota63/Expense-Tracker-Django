@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.add_penny {
+    margin-top: 30px;
+}
+
+.add_penny a {
+    text-decoration: none;
+}
+
+.add_penny button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add_penny button:hover {
+    background-color: #0056b3;
+}

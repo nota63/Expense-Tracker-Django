@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <h1>Home</h1>
+    <h1>Welcome To Django Expense Tracker</h1>
+    <p>This Expense Tracker is built on powerfull backend framework</p>
+    <p>so dont worry about security we have incredible security with Django</p>
+
+    <section>
+        <div class="add_penny">
+            <a href="{% url 'penny' %}">
+                <button type="submit">Start</button>
+            </a>
+        </div>
+    </section>
+
+
+</body>
+</html>
